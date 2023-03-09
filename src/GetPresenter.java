@@ -17,7 +17,7 @@ class Roulettle {
 	Roulettle() {
 		this.def = new ArrayList<>(
 				Arrays.asList(
-					// names here
+					// names here 
 				)
 		);
 		this.sc = new Scanner(System.in);
