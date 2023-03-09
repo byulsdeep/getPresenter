@@ -5,12 +5,10 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GetPresenter {
-
 	public static void main(String[] args) {
 		new Roulettle();
 	}
 }
-
 class Roulettle {
 	List<String> def;
 	List<String> volunteers;
@@ -19,7 +17,7 @@ class Roulettle {
 	Roulettle() {
 		this.def = new ArrayList<>(
 				Arrays.asList(
-						//names here
+					// names here
 				)
 		);
 		this.sc = new Scanner(System.in);
